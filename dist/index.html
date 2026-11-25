@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10131e">
+<meta name="description" content="管理 Discord 社区的等级、奖励和排行榜。">
+<title>GuildBase · Discord 社区管理</title>
+<link rel="stylesheet" href="style.css">
+<script src="live.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+<header class="top"><div class="frame nav">
+<a href="#/" class="brand"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>Guild<span>Base</span></a>
+<nav aria-label="主要导航">
+<a href="#/" data-nav="/">首页</a><a href="#/leaderboard" data-nav="/leaderboard">排行榜</a><a href="#/help" data-nav="/help">使用帮助</a>
+</nav>
+<a class="button compact" href="#/dashboard" data-nav="/dashboard" id="dashboard-link">打开控制台</a>
+</div></header>
+<main id="main" tabindex="-1"></main>
+<footer class="frame footer"><a href="#/" class="brand"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>Guild<span>Base</span></a><p>Discord 社区管理</p><a href="#/help">使用帮助</a></footer>
+<div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
